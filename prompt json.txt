@@ -1,0 +1,1 @@
+in chat vorrei implementare la persistenza di dati in local storage in modo da poter tener traccia dei progressi di uno studente che lo utilizza. poi prevediamo anche un export di dati condivisibile tipo json che possono condividere con l'insegnante. usa il sistema di salvataggio che ho utilizzato lì.

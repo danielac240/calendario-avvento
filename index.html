@@ -1,1 +1,501 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il mistero del Natale perduto – Calendario dell'Avvento 2026</title>
+<style>
+:root{--pine:#174b3b;--pine2:#23634d;--red:#b8323c;--gold:#f4c96b;--cream:#fff8e9;--ink:#24332d;--muted:#64736b;--snow:#f4f8f7}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:linear-gradient(160deg,#e8f3ef,#fff8e9 55%,#f8e9e6);min-height:100vh}
+header{background:linear-gradient(135deg,#123d32,#23634d);color:#fff;text-align:center;padding:34px 18px 28px;position:relative;overflow:hidden}
+header:before{content:"❄ ✦ ❄ ✧ ❄ ✦ ❄";position:absolute;inset:8px 0 auto;color:#ffffff42;font-size:25px;letter-spacing:18px}
+header h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);margin:12px 0 8px;color:#ffe8ac;text-shadow:0 3px 0 #7e342e}
+header p{max-width:760px;margin:0 auto;line-height:1.55;color:#f7f4e9}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 56px}
+.intro{display:grid;grid-template-columns:1.3fr .9fr;gap:16px;margin-top:-8px}
+.panel{background:#ffffffdc;border:1px solid #d9e6de;border-radius:20px;padding:20px;box-shadow:0 8px 24px #1a493010}
+.panel h2,.panel h3{font-family:Georgia,serif;color:var(--pine);margin:0 0 10px}
+.story{line-height:1.6}.progress{height:12px;border-radius:20px;background:#e5eee8;overflow:hidden;margin:12px 0 6px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#d8a63d,#23634d);transition:width .3s}
+.stats{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}
+.student-box{display:flex;gap:8px;margin-bottom:14px}
+.student-box input{flex:1;padding:8px 11px;border:1px solid #cbdcd1;border-radius:10px;font:inherit;font-size:.9rem;background:#fbfdfb}
+.student-box input:focus{outline:2px solid var(--pine2);border-color:transparent}
+.export-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px dashed #d5e1d8}
+.btn-sm{padding:8px 12px;font-size:.85rem;border-radius:9px;cursor:pointer;font-weight:600;display:inline-flex;align-items:center;gap:5px}
+.btn-export{background:var(--pine);color:#fff;border:0}
+.btn-export:hover{background:var(--pine2)}
+.btn-share{background:#fff4d8;color:#7a5310;border:1px solid #e2be6b}
+.btn-reset{background:transparent;color:#9a4a27;border:1px solid #e4c6b8;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:22px 0}
+.door{border:0;border-radius:16px;min-height:126px;padding:12px 8px;background:linear-gradient(145deg,#c64249,#9f2937);color:white;box-shadow:0 5px 0 #78232c,0 9px 18px #173c3020;cursor:pointer;position:relative;transition:transform .15s,filter .15s}
+.door:hover{transform:translateY(-3px)}.door:disabled{cursor:not-allowed;filter:grayscale(.55);opacity:.64;transform:none}
+.door .date{font-size:1.65rem;font-weight:800;display:block;color:#ffe9ae}.door .month{font-size:.72rem;letter-spacing:1px;text-transform:uppercase}.door .subject{display:block;font-size:.75rem;margin-top:8px;line-height:1.2}.door .lock{font-size:1.15rem;display:block;margin-top:5px}
+.door.done{background:linear-gradient(145deg,#287653,#174b3b);box-shadow:0 5px 0 #103d2e,0 9px 18px #173c3020}.door.today{outline:3px solid var(--gold);outline-offset:3px}
+.door .tick{position:absolute;right:9px;top:7px;font-size:1rem}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.84rem;color:var(--muted);margin:4px 0 20px}.legend span{display:flex;align-items:center;gap:6px}
+.dot{width:12px;height:12px;border-radius:4px;display:inline-block;background:var(--red)}.dot.green{background:var(--pine2)}.dot.gray{background:#aebbb4}
+.notice{background:#fff1d1;border-left:4px solid #d5a23f;padding:12px 14px;border-radius:10px;font-size:.9rem;line-height:1.5}
+footer{text-align:center;color:var(--muted);font-size:.82rem;padding:10px}
+button,select{font:inherit}.primary{background:var(--pine);color:#fff;border:0;padding:11px 17px;border-radius:11px;cursor:pointer;font-weight:700}.secondary{background:#edf4ef;color:var(--pine);border:1px solid #cbdcd1;padding:10px 14px;border-radius:11px;cursor:pointer}
+dialog{border:0;border-radius:22px;padding:0;width:min(720px,calc(100% - 24px));max-height:90vh;box-shadow:0 25px 80px #102d2480;color:var(--ink)}
+dialog::backdrop{background:#102c25b8;backdrop-filter:blur(4px)}.modal-head{background:linear-gradient(135deg,#174b3b,#23634d);color:#fff;padding:20px 24px}.modal-head h2{font-family:Georgia,serif;color:#ffe8ac;margin:0 0 5px}.modal-body{padding:22px 24px;overflow:auto;max-height:65vh}.modal-foot{padding:14px 24px;background:#f5f8f5;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.levels{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px}.levels button{border:1px solid #cbdcd1;background:#f5faf6;border-radius:20px;padding:8px 13px;cursor:pointer;color:var(--pine)}.levels button.active{background:var(--pine);color:#fff;border-color:var(--pine)}
+.exercise{border:1px solid #dce8df;border-radius:15px;padding:16px;margin:14px 0;background:#fff}.exercise h3{font-size:1rem;color:var(--pine);margin:0 0 8px}.question{line-height:1.5;margin:8px 0 12px}.choices{display:grid;gap:8px}.choice{display:block;text-align:left;width:100%;padding:10px 12px;border:1px solid #d5e1d8;border-radius:10px;background:#fbfdfb;cursor:pointer}.choice:hover{border-color:#6d9b80;background:#f1f8f3}.choice.selected{border-color:var(--pine);background:#e9f3ec}.choice:disabled{cursor:default}
+.feedback{margin-top:10px;padding:10px 12px;border-radius:10px;font-size:.9rem;line-height:1.45;display:none}.feedback.show{display:block}.feedback.good{background:#e5f4e8;color:#185c36}.feedback.bad{background:#fff0e7;color:#8b3b23}
+.hint{margin-top:9px}.hint summary{cursor:pointer;color:#8a6423;font-size:.88rem}.hint p{font-size:.88rem;color:var(--muted)}
+.clue{background:#fff4d8;border:1px dashed #d5a23f;padding:14px;border-radius:13px;margin-top:16px}.clue strong{color:#835b14}.hidden{display:none!important}
+@media(max-width:800px){.grid{grid-template-columns:repeat(3,1fr)}.intro{grid-template-columns:1fr}}
+@media(max-width:480px){.grid{grid-template-columns:repeat(3,1fr);gap:9px}.door{min-height:112px}.door .subject{font-size:.68rem}.modal-body{padding:16px}.modal-head{padding:17px}}
+</style>
+</head>
+<body>
+<header>
+  <div aria-hidden="true">⭐ 🎄 ❄️ 🎁 ❄️ 🎄 ⭐</div>
+  <h1>Il mistero del Natale perduto</h1>
+  <p>Un'avventura di 15 tappe per la classe terza media. Apri una casella al giorno, supera le prove e raccogli gli indizi per ritrovare la magia del Natale!</p>
+</header>
+<main class="wrap">
+  <section class="intro">
+    <div class="panel story">
+      <h2>📖 Il messaggio dal Polo Nord</h2>
+      <p>È successo qualcosa di incredibile: il Grande Libro del Natale ha perso le sue pagine e la stella che illumina il Polo Nord si sta spegnendo. Gli elfi hanno bisogno di una squadra di investigatori: voi!</p>
+      <p>Ogni giorno vi aspetta una missione. Le risposte corrette vi faranno guadagnare punti e un indizio. Conservate gli indizi: il 23 dicembre vi aiuteranno a risolvere il mistero.</p>
+      <div class="notice"><strong>Regola dell'avventura:</strong> scegliete il vostro livello (facile, intermedio o avanzato), leggete con attenzione e confrontatevi. Le caselle si aprono a partire dalla data indicata, secondo il calendario del dispositivo.</div>
+    </div>
+    <div class="panel">
+      <h3>🏆 Diario dello studente</h3>
+      <div class="student-box">
+        <input id="studentName" type="text" placeholder="Nome e Cognome (o Squadra)..." aria-label="Nome dello studente o della squadra">
+      </div>
+      <div class="stats"><span>⭐ Punti: <strong id="points">0</strong></span><span>🔓 Missioni: <strong id="completed">0/15</strong></span></div>
+      <div class="progress"><span id="bar"></span></div>
+      <p id="progressText" class="stats">La vostra avventura sta per cominciare!</p>
+      <h3 style="margin-top:16px">🧩 Indizi raccolti</h3>
+      <div id="clueCount" class="stats">Nessun indizio ancora.</div>
+      
+      <div class="export-actions">
+        <button class="btn-sm btn-export" onclick="exportProgressJSON()" title="Scarica il file JSON da inviare all'insegnante">📥 Esporta JSON per docente</button>
+        <button id="btnShare" class="btn-sm btn-share hidden" onclick="shareProgressJSON()" title="Condividi direttamente il file">📤 Condividi</button>
+        <button class="btn-sm btn-reset" onclick="resetProgress()" title="Azzera tutti i dati salvati">🗑️ Reset</button>
+      </div>
+      <p id="saveStatus" style="font-size:.78rem;color:#64736b;margin:8px 0 0">I progressi vengono salvati automaticamente in questo browser.</p>
+    </div>
+  </section>
 
+  <h2 style="font-family:Georgia,serif;color:#174b3b;margin:28px 0 8px">Le caselle dell'Avvento</h2>
+  <div class="legend"><span><i class="dot"></i> Da aprire</span><span><i class="dot green"></i> Completata</span><span><i class="dot gray"></i> Non ancora disponibile</span></div>
+  <section id="calendar" class="grid" aria-label="Calendario dell'Avvento"></section>
+  <section class="panel">
+    <h3>🔐 Il mistero finale</h3>
+    <p class="story">Quando avrete raccolto gli indizi delle missioni, provate a comporre la frase segreta. Il 23 dicembre potrete inserire la soluzione e scoprire il finale della storia.</p>
+    <div id="finalArea" class="hidden">
+      <label for="finalAnswer"><strong>Qual è la frase segreta?</strong></label>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px"><input id="finalAnswer" type="text" placeholder="Scrivi qui la soluzione..." style="flex:1;min-width:190px;padding:11px;border:1px solid #cbdcd1;border-radius:10px"><button class="primary" onclick="checkFinal()">Verifica</button></div>
+      <p id="finalFeedback" aria-live="polite"></p>
+    </div>
+    <p id="finalLocked" class="notice">La sfida conclusiva si sbloccherà dopo aver completato la missione del 23 dicembre.</p>
+  </section>
+</main>
+<footer>Creato per imparare insieme, con curiosità e spirito di squadra. Buon Avvento! 🎄</footer>
+
+<dialog id="mission">
+  <div class="modal-head"><div id="dayLabel" style="font-size:.8rem;letter-spacing:1px;text-transform:uppercase"></div><h2 id="missionTitle"></h2><div id="missionStory"></div></div>
+  <div class="modal-body">
+    <p id="missionIntro"></p>
+    <strong>Scegli il tuo livello:</strong>
+    <div class="levels">
+      <button data-level="facile" class="active" onclick="setLevel('facile')">🌱 Facile</button>
+      <button data-level="medio" class="active" onclick="setLevel('medio')">⭐ Intermedio</button>
+      <button data-level="avanzato" class="active" onclick="setLevel('avanzato')">🔥 Avanzato</button>
+    </div>
+    <div id="exerciseArea"></div>
+    <div id="earnedClue" class="clue hidden"></div>
+  </div>
+  <div class="modal-foot"><span id="missionScore">Punti di questa missione: 0</span><button class="primary" onclick="closeMission()">Torna al calendario</button></div>
+</dialog>
+
+<script>
+const missions = [
+{d:7,sub:"Italiano · grammatica",title:"Il codice delle parole",story:"L'elfo Scriba ha trovato una frase misteriosa, ma le sue parole sono tutte mescolate.",intro:"Riconosci le strutture della lingua e ricostruisci il codice.",clue:"LUCE",qs:[
+{levels:{facile:{q:"Nella frase «I ragazzi leggono un libro», qual è il soggetto?",o:["I ragazzi","leggono","un libro"],a:0,e:"Il soggetto è «i ragazzi»: compiono l'azione espressa dal verbo."},medio:{q:"Nella frase «La neve copriva silenziosamente il sentiero», «silenziosamente» è:",o:["Aggettivo qualificativo","Avverbio di modo","Complemento di termine"],a:1,e:"«Silenziosamente» è un avverbio di modo: precisa come avviene l'azione."},avanzato:{q:"Nella frase «Benché fosse tardi, Marta terminò il lavoro», la subordinata introdotta da «benché» è:",o:["Causale","Concessiva","Finale"],a:1,e:"«Benché» introduce una concessiva: esprime un fatto nonostante il quale si realizza l'azione principale."}}},
+{levels:{facile:{q:"Quale parola è un verbo?",o:["Correre","Neve","Luminoso"],a:0,e:"«Correre» è un verbo all'infinito."},medio:{q:"In «Il quaderno di Luca è sul banco», «di Luca» esprime:",o:["Complemento di specificazione","Complemento di termine","Complemento di causa"],a:0,e:"«Di Luca» specifica a chi appartiene il quaderno: complemento di specificazione."},avanzato:{q:"Quale frase contiene un predicato nominale?",o:["Il cielo è limpido","Il cielo cambia colore","Il cielo si oscura"],a:0,e:"«È limpido» è formato da copula e nome del predicato: predicato nominale."}}}
+]},
+{d:8,sub:"Matematica",title:"Il forziere dei numeri",story:"Il forziere degli elfi si apre solo con il risultato di due enigmi matematici.",intro:"Ragiona, calcola e scegli il codice esatto.",clue:"DEL",qs:[
+{levels:{facile:{q:"Quanto fa 3/4 di 20?",o:["12","15","16"],a:1,e:"20 ÷ 4 = 5; 5 × 3 = 15."},medio:{q:"Un maglione costa 48 €. È scontato del 25%. Quanto costa dopo lo sconto?",o:["24 €","36 €","40 €"],a:1,e:"Il 25% di 48 è 12; 48 − 12 = 36 €."},avanzato:{q:"Risolvi: 3(2x − 1) = 21.",o:["x = 3","x = 4","x = 5"],a:1,e:"6x − 3 = 21; 6x = 24; x = 4."}}},
+{levels:{facile:{q:"Qual è il valore di 8 × 7?",o:["54","56","64"],a:1,e:"8 × 7 = 56."},medio:{q:"Un numero aumentato del 20% diventa 72. Qual era il numero iniziale?",o:["60","62","64"],a:0,e:"72 corrisponde al 120%: 72 ÷ 1,2 = 60."},avanzato:{q:"Qual è la soluzione di 2(x + 3) − 5 = 13?",o:["x = 5","x = 6","x = 7"],a:1,e:"2x + 6 − 5 = 13; 2x = 12; x = 6."}}}
+]},
+{d:9,sub:"Inglese",title:"Christmas challenge",story:"A letter from the North Pole has arrived, but some words are missing!",intro:"Use your English skills to decode the elf's message.",clue:"SAPERE",qs:[
+{levels:{facile:{q:"Choose the correct translation of «renna».",o:["Reindeer","Sleigh","Snowman"],a:0,e:"«Reindeer» significa renna."},medio:{q:"Complete: «If it snows tomorrow, we ___ at home».",o:["stay","will stay","stayed"],a:1,e:"Nel first conditional: if + present simple, will + verbo base."},avanzato:{q:"Choose the correct reported speech: Tom said, «I am tired».",o:["Tom said he is tired.","Tom said he was tired.","Tom said I was tired."],a:1,e:"Nel discorso indiretto il present simple/continuous arretra normalmente al past: «am» diventa «was»."}}},
+{levels:{facile:{q:"What is the opposite of «cold»?",o:["Warm","Dark","Slow"],a:0,e:"«Warm» significa caldo/tiepido ed è il contrario di «cold»."},medio:{q:"Choose the correct sentence.",o:["She has lived here for 2020.","She has lived here since 2020.","She lives here since 2020."],a:1,e:"Si usa «since» con il momento iniziale: since 2020."},avanzato:{q:"Complete: «The parcel ___ yesterday».",o:["was delivered","delivered","has deliver"],a:0,e:"La forma passiva al past simple è was/were + past participle: was delivered."}}}
+]},
+{d:10,sub:"Francese",title:"Le mystère de Noël",story:"Un petit lutin a laissé un message en français. Il faut comprendre les indices!",intro:"Lis attentivement et choisis la bonne réponse.",clue:"PARTAGER",qs:[
+{levels:{facile:{q:"Come si dice «Buon Natale» in francese?",o:["Joyeux Noël","Bonne nuit","Bon anniversaire"],a:0,e:"«Joyeux Noël» significa Buon Natale."},medio:{q:"Completa: «Nous ___ un chocolat chaud».",o:["bois","buvons","buvez"],a:1,e:"Con «nous», il verbo boire al présent è «buvons»."},avanzato:{q:"Qual è la forma corretta del comparativo: «Le train est ___ rapide que le bus»?",o:["aussi","autant","très que"],a:0,e:"Il comparativo di uguaglianza con un aggettivo è aussi + adjectif + que."}}},
+{levels:{facile:{q:"«La neige» significa:",o:["La neve","La notte","La stella"],a:0,e:"«La neige» significa la neve."},medio:{q:"Scegli la frase corretta al passé composé: «Hier, nous ___ au cinéma».",o:["sommes allé","avons allé","sommes allés"],a:2,e:"Aller si coniuga con être; con «nous» maschile/misto: «sommes allés»."},avanzato:{q:"Trasforma al negativo: «Je vois encore la lumière».",o:["Je ne vois plus la lumière.","Je ne vois pas encore la lumière.","Je vois ne plus la lumière."],a:0,e:"«Ne… plus» esprime la cessazione di un'azione: non vedo più la luce."}}}
+]},
+{d:11,sub:"Storia e geografia",title:"Il viaggio nel tempo e nello spazio",story:"La slitta magica ha perso la rotta: per ritrovarla servono memoria storica e orientamento geografico.",intro:"Collega epoche, luoghi e coordinate.",clue:"INSIEME",qs:[
+{levels:{facile:{q:"Quale civiltà costruì il Colosseo?",o:["Romana","Egizia","Greca"],a:0,e:"Il Colosseo fu costruito nella Roma imperiale."},medio:{q:"Quale linea immaginaria divide la Terra in emisfero boreale e australe?",o:["Meridiano di Greenwich","Equatore","Tropico del Cancro"],a:1,e:"L'Equatore divide la Terra in emisfero nord e sud."},avanzato:{q:"Quale evento è convenzionalmente associato all'inizio dell'età contemporanea in Europa?",o:["Caduta dell'Impero romano d'Occidente","Rivoluzione francese","Scoperta dell'America"],a:1,e:"La Rivoluzione francese del 1789 è comunemente assunta come inizio dell'età contemporanea."}}},
+{levels:{facile:{q:"In quale continente si trova l'Italia?",o:["Europa","Asia","Africa"],a:0,e:"L'Italia si trova nell'Europa meridionale."},medio:{q:"Quale strumento serve a individuare la latitudine e la longitudine?",o:["Coordinate geografiche","Scala cromatica","Legenda storica"],a:0,e:"Latitudine e longitudine sono coordinate che localizzano un punto sulla Terra."},avanzato:{q:"Quale caratteristica distingue una monarchia costituzionale da una monarchia assoluta?",o:["Il sovrano governa senza limiti","I poteri del sovrano sono regolati da una costituzione","Non esiste un capo dello Stato"],a:1,e:"Nella monarchia costituzionale i poteri del sovrano sono limitati e regolati dalla costituzione."}}}
+]},
+{d:12,sub:"Scienze",title:"Il laboratorio d'inverno",story:"Nel laboratorio di Babbo Natale alcuni esperimenti sono andati storti. Serve una mente scientifica!",intro:"Osserva i fenomeni e scegli la spiegazione più corretta.",clue:"CURIOSITÀ",qs:[
+{levels:{facile:{q:"A quale temperatura l'acqua pura congela, a pressione atmosferica normale?",o:["0 °C","10 °C","100 °C"],a:0,e:"A pressione atmosferica normale, l'acqua pura congela a 0 °C."},medio:{q:"Quale organo pompa il sangue nel corpo umano?",o:["Polmone","Cuore","Fegato"],a:1,e:"Il cuore è il muscolo che pompa il sangue attraverso il sistema circolatorio."},avanzato:{q:"Due resistenze da 2 Ω e 4 Ω sono collegate in serie. Qual è la resistenza equivalente?",o:["2 Ω","6 Ω","8 Ω"],a:1,e:"In serie le resistenze si sommano: 2 + 4 = 6 Ω."}}},
+{levels:{facile:{q:"Quale gas assorbono le piante durante la fotosintesi?",o:["Anidride carbonica","Ossigeno","Azoto"],a:0,e:"Le piante assorbono anidride carbonica e, con acqua e luce, producono sostanze organiche e ossigeno."},medio:{q:"Quale particella ha carica elettrica negativa?",o:["Protone","Neutrone","Elettrone"],a:2,e:"L'elettrone ha carica negativa; il protone positiva e il neutrone è neutro."},avanzato:{q:"Se la velocità è costante, quale relazione lega spazio, velocità e tempo?",o:["s = v × t","s = v ÷ t","s = t ÷ v"],a:0,e:"Nel moto uniforme lo spazio è il prodotto tra velocità e tempo: s = v × t."}}}
+]},
+{d:14,sub:"Italiano · antologia",title:"La pagina perduta",story:"Una pagina del racconto di Natale è stata strappata. Ricostruisci il senso della narrazione!",intro:"Leggi le domande e individua gli elementi del testo narrativo.",clue:"IMMAGINAZIONE",qs:[
+{levels:{facile:{q:"Chi racconta una storia in prima persona usando «io»?",o:["Narratore interno","Narratore esterno","Autore sempre e comunque"],a:0,e:"Il narratore interno è un personaggio che racconta in prima persona."},medio:{q:"In un racconto, il flashback è:",o:["Un'anticipazione del futuro","Un ritorno a un evento passato","La descrizione dell'ambiente"],a:1,e:"Il flashback interrompe la sequenza cronologica per raccontare un fatto precedente."},avanzato:{q:"Quale effetto produce un narratore inattendibile?",o:["Garantisce una ricostruzione oggettiva","Invita il lettore a dubitare della sua versione","Elimina ogni punto di vista"],a:1,e:"Il narratore inattendibile offre una versione da valutare criticamente, non del tutto affidabile."}}},
+{levels:{facile:{q:"Quale elemento indica il luogo in cui si svolge la vicenda?",o:["Spazio","Tempo verbale","Rima"],a:0,e:"Lo spazio è l'ambiente fisico o sociale in cui si svolgono gli eventi."},medio:{q:"Quale figura retorica trovi in «i capelli d'oro»?",o:["Metafora","Onomatopea","Iperbole"],a:0,e:"«D'oro» sostituisce una qualità dei capelli con un'immagine figurata: metafora."},avanzato:{q:"In un testo argomentativo, la tesi è:",o:["La posizione che l'autore sostiene","Un esempio secondario","La conclusione obbligatoria di ogni racconto"],a:0,e:"La tesi è l'opinione o posizione che l'autore cerca di sostenere con argomenti."}}}
+]},
+{d:15,sub:"Matematica e geometria",title:"La stella misteriosa",story:"La stella polare è nascosta in una figura geometrica. Risolvi i calcoli per trovarla.",intro:"Usa proprietà geometriche e ragionamento.",clue:"CREATIVITÀ",qs:[
+{levels:{facile:{q:"Quanto misura la somma degli angoli interni di un triangolo?",o:["90°","180°","360°"],a:1,e:"La somma degli angoli interni di ogni triangolo è 180°."},medio:{q:"Un rettangolo ha base 8 cm e altezza 5 cm. Qual è la sua area?",o:["13 cm²","26 cm²","40 cm²"],a:2,e:"Area = base × altezza = 8 × 5 = 40 cm²."},avanzato:{q:"Un triangolo rettangolo ha cateti di 6 cm e 8 cm. Quanto misura l'ipotenusa?",o:["9 cm","10 cm","12 cm"],a:1,e:"Per Pitagora: √(6² + 8²) = √100 = 10 cm."}}},
+{levels:{facile:{q:"Quanti lati ha un esagono?",o:["5","6","8"],a:1,e:"Un esagono ha sei lati."},medio:{q:"La circonferenza di un cerchio di raggio 3 cm è:",o:["3π cm","6π cm","9π cm"],a:1,e:"C = 2πr = 2 × π × 3 = 6π cm."},avanzato:{q:"Due triangoli simili hanno lati corrispondenti in rapporto 2:3. Se un lato del primo misura 8 cm, il corrispondente del secondo misura:",o:["10 cm","12 cm","16 cm"],a:1,e:"Il fattore di scala è 3/2: 8 × 3/2 = 12 cm."}}}
+]},
+{d:16,sub:"Inglese",title:"The North Pole mission",story:"The elves have hidden a secret message in a grammar puzzle. Can you find it?",intro:"Choose the correct structure in each sentence.",clue:"GENTILEZZA",qs:[
+{levels:{facile:{q:"Complete: «Yesterday I ___ a Christmas film».",o:["watch","watched","watches"],a:1,e:"Con «yesterday» si usa il past simple: watched."},medio:{q:"Choose: «This is the book ___ I told you about».",o:["who","where","which"],a:2,e:"«Which» si riferisce a una cosa, come «book», in una relative clause."},avanzato:{q:"Complete: «I wish I ___ more time to prepare the surprise».",o:["have","had","will have"],a:1,e:"Dopo «I wish», per esprimere un desiderio poco realizzabile nel presente, si usa il past simple."}}},
+{levels:{facile:{q:"What is the past simple of «go»?",o:["goed","went","gone"],a:1,e:"Il past simple irregolare di «go» è «went»."},medio:{q:"Choose the correct question tag: «You are ready, ___?»",o:["aren't you","don't you","are you"],a:0,e:"La frase è affermativa con «are», quindi la question tag è negativa: aren't you?"},avanzato:{q:"Choose the correct form: «The house ___ in 1920».",o:["built","was built","has build"],a:1,e:"La forma passiva al past simple è was/were + participio passato: was built."}}}
+]},
+{d:17,sub:"Francese",title:"Le code secret",story:"Le Père Noël a perdu son carnet. Résous les énigmes pour retrouver le code!",intro:"Choisis la bonne forme et découvre le message.",clue:"SOLIDARIETÀ",qs:[
+{levels:{facile:{q:"Qual è il plurale di «un cadeau»?",o:["des cadeaux","des cadeau","des cadeaus"],a:0,e:"Il plurale di cadeau si forma aggiungendo -x: cadeaux."},medio:{q:"Completa: «Si j'avais le temps, je ___ un bonhomme de neige».",o:["construis","construirais","construirai"],a:1,e:"Con si + imparfait, la principale usa il conditionnel présent: construirais."},avanzato:{q:"Quale pronome sostituisce «à mes amis» in «Je parle à mes amis»?",o:["les","leur","en"],a:1,e:"«À mes amis» è complemento indiretto plurale: si sostituisce con «leur»."}}},
+{levels:{facile:{q:"«Merci beaucoup» significa:",o:["Molte grazie","Buona fortuna","A presto"],a:0,e:"«Merci beaucoup» significa molte grazie."},medio:{q:"Scegli il pronome corretto: «Marie et Paul? Je ___ connais bien».",o:["leur","les","lui"],a:1,e:"«Connaître quelqu'un» regge un complemento oggetto diretto: les."},avanzato:{q:"Quale frase usa correttamente il futur simple?",o:["Demain, nous partirons tôt.","Demain, nous partons hier.","Demain, nous sommes partis."],a:0,e:"«Partirons» è il futur simple di partir alla prima persona plurale."}}}
+]},
+{d:18,sub:"Tecnologia",title:"La macchina di Natale",story:"Gli elfi devono riparare la slitta elettrica: serve progettare, misurare e ragionare sui materiali.",intro:"Risolvi i quesiti da giovane progettista.",clue:"RISPETTO",qs:[
+{levels:{facile:{q:"Quale materiale è un buon conduttore elettrico?",o:["Rame","Gomma","Legno secco"],a:0,e:"Il rame è un metallo e conduce bene la corrente elettrica."},medio:{q:"In un circuito elettrico semplice, l'interruttore serve a:",o:["Aprire o chiudere il circuito","Aumentare sempre la tensione","Produrre energia dal nulla"],a:0,e:"L'interruttore interrompe o permette il passaggio della corrente."},avanzato:{q:"Un dispositivo assorbe 2 A a 12 V. Qual è la sua potenza elettrica?",o:["6 W","14 W","24 W"],a:2,e:"P = V × I = 12 × 2 = 24 W."}}},
+{levels:{facile:{q:"Quale tra questi è un materiale isolante?",o:["Alluminio","Rame","Plastica"],a:2,e:"La plastica è generalmente un isolante elettrico."},medio:{q:"In un disegno tecnico in scala 1:100, 3 cm sul foglio corrispondono a:",o:["30 cm","3 m","30 m"],a:1,e:"1 cm rappresenta 100 cm; 3 cm rappresentano 300 cm, cioè 3 m."},avanzato:{q:"Quale fase del ciclo di vita di un prodotto valuta impatti e consumi dalla produzione allo smaltimento?",o:["Analisi del ciclo di vita (LCA)","Prototipazione rapida","Disegno in prospettiva"],a:0,e:"La LCA valuta gli impatti ambientali lungo tutte le fasi del ciclo di vita."}}}
+]},
+{d:19,sub:"Italiano · grammatica",title:"Il detective della lingua",story:"Un messaggio cifrato contiene errori e indizi grammaticali. L'elfo Scriba conta su di voi!",intro:"Individua la forma corretta e motiva la tua scelta.",clue:"ASCOLTO",qs:[
+{levels:{facile:{q:"Qual è il congiuntivo presente di «essere» alla prima persona singolare?",o:["Sia","Sono","Fossi"],a:0,e:"Il congiuntivo presente di essere è: che io sia."},medio:{q:"Quale frase usa correttamente il congiuntivo?",o:["Penso che lui abbia ragione.","Penso che lui ha ragione.","Penso che lui avrà ragione ieri."],a:0,e:"Dopo «penso che» si usa normalmente il congiuntivo: abbia."},avanzato:{q:"Nella frase «È necessario che tu venga», la subordinata è:",o:["Soggettiva esplicita","Oggettiva esplicita","Relativa"],a:0,e:"La subordinata «che tu venga» svolge la funzione di soggetto rispetto a «è necessario»."}}},
+{levels:{facile:{q:"Quale parola è un pronome personale?",o:["Noi","Bello","Domani"],a:0,e:"«Noi» è un pronome personale di prima persona plurale."},medio:{q:"Nella frase «Il libro che mi hai prestato è interessante», «che» è:",o:["Pronome relativo","Congiunzione causale","Articolo"],a:0,e:"«Che» riprende «il libro» e introduce una subordinata relativa."},avanzato:{q:"Quale periodo contiene una subordinata consecutiva?",o:["Era così stanco che si addormentò subito.","Quando arrivò, iniziò a nevicare.","Sebbene piovesse, uscì."],a:0,e:"«Così… che» esprime la conseguenza dell'intensità indicata nella principale."}}}
+]},
+{d:21,sub:"Matematica",title:"La sfida del laboratorio",story:"Per riaccendere la stella polare occorre calibrare il laboratorio: servono proporzioni e probabilità.",intro:"Affronta i calcoli e scegli la strategia giusta.",clue:"SPERANZA",qs:[
+{levels:{facile:{q:"Qual è il 10% di 250?",o:["15","25","50"],a:1,e:"Il 10% di 250 è 250 ÷ 10 = 25."},medio:{q:"In un sacchetto ci sono 3 palline rosse e 2 blu. Qual è la probabilità di estrarre una pallina blu?",o:["2/5","3/5","1/2"],a:0,e:"I casi favorevoli sono 2 su 5 possibili: probabilità 2/5."},avanzato:{q:"Un prezzo aumenta del 10% e poi diminuisce del 10%. Rispetto al prezzo iniziale, il risultato è:",o:["Uguale","Inferiore del 1%","Superiore del 1%"],a:1,e:"Con prezzo iniziale 100: 110 − 11 = 99. Il risultato è inferiore dell'1%."}}},
+{levels:{facile:{q:"Quanto fa 2,5 + 1,75?",o:["3,25","4,25","4,75"],a:1,e:"2,50 + 1,75 = 4,25."},medio:{q:"Se 4 quaderni costano 6 €, quanto costano 10 quaderni allo stesso prezzo unitario?",o:["12 €","15 €","18 €"],a:1,e:"Un quaderno costa 6 ÷ 4 = 1,50 €; 10 costano 15 €."},avanzato:{q:"Un dado regolare viene lanciato una volta. Qual è la probabilità di ottenere un numero primo?",o:["1/3","1/2","2/3"],a:1,e:"I numeri primi sul dado sono 2, 3 e 5: 3 casi su 6, cioè 1/2."}}}
+]},
+{d:22,sub:"Musica · arte · religione",title:"I simboli del Natale",story:"Tre stanze custodiscono tre linguaggi: suoni, immagini e tradizioni. Trova il filo che li unisce.",intro:"Osserva come musica, arte e cultura raccontano il Natale.",clue:"PACE",qs:[
+{levels:{facile:{q:"Quale famiglia di strumenti comprende violino e violoncello?",o:["Archi","Ottoni","Percussioni"],a:0,e:"Violino e violoncello appartengono alla famiglia degli archi."},medio:{q:"In musica, che cosa indica il termine «crescendo»?",o:["Aumentare gradualmente l'intensità","Diminuire gradualmente il tempo","Ripetere dall'inizio"],a:0,e:"Crescendo indica un aumento progressivo dell'intensità sonora."},avanzato:{q:"Quale tecnica pittorica consiste nell'applicare pigmenti su intonaco ancora umido?",o:["Affresco","Incisione","Collage"],a:0,e:"Nell'affresco i pigmenti sono stesi sull'intonaco fresco e si fissano durante l'asciugatura."}}},
+{levels:{facile:{q:"Quale simbolo è spesso associato alla nascita di Gesù nei racconti evangelici?",o:["La stella","Il tridente","La corona d'alloro"],a:0,e:"La stella è un simbolo tradizionalmente associato al racconto dei Magi."},medio:{q:"Quale elemento è tipico di una partitura musicale?",o:["Pentagramma","Pianta quotata","Linea del tempo"],a:0,e:"Il pentagramma è il sistema di cinque linee su cui si scrivono le note."},avanzato:{q:"Quale principio è al centro del messaggio cristiano del Natale?",o:["Accoglienza e amore verso gli altri","Competizione e ricchezza","Isolamento dalla comunità"],a:0,e:"Nel cristianesimo il Natale celebra la nascita di Gesù e richiama valori di amore, pace e accoglienza."}}}
+]},
+{d:23,sub:"Ginnastica · missione finale",title:"La prova finale degli elfi",story:"La stella è quasi spenta. L'ultima prova richiede equilibrio, collaborazione e una mente pronta!",intro:"Concludi l'avventura con conoscenze sul movimento e sul lavoro di squadra. Poi prova a risolvere il mistero.",clue:"NATALE",qs:[
+{levels:{facile:{q:"Prima di un'attività fisica è importante:",o:["Fare un riscaldamento graduale","Restare immobili a lungo","Iniziare subito al massimo sforzo"],a:0,e:"Il riscaldamento prepara muscoli e apparato cardiovascolare allo sforzo."},medio:{q:"Quale capacità motoria permette di mantenere una posizione senza perdere stabilità?",o:["Equilibrio","Velocità","Resistenza"],a:0,e:"L'equilibrio consente di mantenere o recuperare la stabilità del corpo."},avanzato:{q:"Durante uno sforzo prolungato e moderato, quale sistema energetico contribuisce in modo prevalente?",o:["Sistema aerobico","Sistema anaerobico alattacido","Solo fosfageno"],a:0,e:"Negli sforzi prolungati e moderati prevale il metabolismo aerobico, che utilizza ossigeno."}}},
+{levels:{facile:{q:"Quale comportamento rende più sicuro un gioco di squadra?",o:["Rispettare regole e compagni","Spingere gli avversari","Ignorare le indicazioni"],a:0,e:"Il rispetto delle regole e delle persone rende il gioco più sicuro e inclusivo."},medio:{q:"Quale attività allena soprattutto la resistenza cardiorespiratoria?",o:["Corsa continua a ritmo moderato","Un singolo salto","Sollevare un oggetto una volta"],a:0,e:"La corsa continua moderata è un'attività aerobica che allena la resistenza cardiorespiratoria."},avanzato:{q:"Perché il recupero è importante dopo un allenamento?",o:["Permette all'organismo di ristabilirsi e adattarsi","Annulla ogni effetto dell'esercizio","Serve solo a evitare la sete"],a:0,e:"Il recupero permette di ripristinare risorse e favorisce gli adattamenti dell'organismo all'allenamento."}}}
+]}
+];
+
+const STORAGE = "avvento_natale_2026_v2";
+const defaultState = {
+  studentName: "",
+  done: {},
+  details: {}, // Salva livello, punteggio, risposte e timestamp per ogni missione
+  points: 0,
+  clues: [],
+  finalSolved: false,
+  finalSubmittedText: "",
+  lastUpdated: new Date().toISOString()
+};
+
+let state = structuredClone(defaultState);
+
+// Caricamento dal localStorage (con retrocompatibilità verso v1 se esistente)
+try {
+  const saved = JSON.parse(localStorage.getItem(STORAGE) || localStorage.getItem("avvento_natale_2026_v1") || "null");
+  if (saved) {
+    state = { ...structuredClone(defaultState), ...saved };
+    if (!state.details) state.details = {};
+  }
+} catch (e) {
+  console.error("Errore lettura localStorage:", e);
+}
+
+let active = null, level = "facile", answered = {}, missionPoints = 0;
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+function dateFor(day) { return new Date(2026, 11, day); }
+function available(day) { return today >= dateFor(day); }
+
+function save() {
+  try {
+    state.lastUpdated = new Date().toISOString();
+    localStorage.setItem(STORAGE, JSON.stringify(state));
+    const statusEl = document.getElementById("saveStatus");
+    if (statusEl) {
+      const timeStr = new Date().toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
+      statusEl.textContent = `✓ Progressi salvati localmente alle ${timeStr}.`;
+    }
+  } catch (e) {
+    console.error("Errore salvataggio localStorage:", e);
+  }
+  render();
+}
+
+// Gestione campo nome studente con salvataggio automatico
+const nameInput = document.getElementById("studentName");
+nameInput.value = state.studentName || "";
+nameInput.addEventListener("input", (e) => {
+  state.studentName = e.target.value;
+  save();
+});
+
+// Mostra pulsante condividi nativo se supportato (es. tablet/smartphone)
+if (navigator.canShare) {
+  document.getElementById("btnShare").classList.remove("hidden");
+}
+
+function render() {
+  const cal = document.getElementById("calendar");
+  cal.innerHTML = "";
+  const totalMissions = missions.length;
+
+  missions.forEach(m => {
+    const done = !!state.done[m.d], open = available(m.d);
+    const b = document.createElement("button");
+    b.className = "door" + (done ? " done" : "") + (open && !done ? " today" : "");
+    b.disabled = !open;
+    b.innerHTML = `${done ? '<span class="tick">✓</span>' : ""}<span class="date">${m.d}</span><span class="month">dicembre</span><span class="subject">${m.sub}</span><span class="lock">${done ? "⭐ Completata" : open ? "🔓 Apri" : "🔒"}</span>`;
+    b.title = open ? m.title : "Disponibile dal " + m.d + " dicembre 2026";
+    b.onclick = () => openMission(m.d);
+    cal.appendChild(b);
+  });
+
+  const count = Object.keys(state.done).length;
+  document.getElementById("points").textContent = state.points;
+  document.getElementById("completed").textContent = `${count}/${totalMissions}`;
+  document.getElementById("bar").style.width = (count / totalMissions * 100) + "%";
+  document.getElementById("progressText").textContent =
+    count === 0 ? "La vostra avventura sta per cominciare!" :
+    count === totalMissions ? "Tutte le missioni completate: il Natale è salvo!" :
+    `Avete completato ${count} missioni su ${totalMissions}.`;
+
+  document.getElementById("clueCount").textContent = state.clues.length ? state.clues.join(" · ") : "Nessun indizio ancora.";
+
+  const finalReady = !!state.done[23];
+  document.getElementById("finalArea").classList.toggle("hidden", !finalReady);
+  document.getElementById("finalLocked").classList.toggle("hidden", finalReady);
+
+  if (state.finalSolved) {
+    const fb = document.getElementById("finalFeedback");
+    fb.textContent = "🎉 Avete risolto il mistero! La magia del Natale non era scomparsa: vive nella luce, nel sapere, nella gentilezza e nella condivisione. Il Grande Libro è completo. Buon Natale!";
+    fb.style.color = "#17633d";
+    document.getElementById("finalAnswer").value = state.finalSubmittedText || "";
+  }
+}
+
+function openMission(day) {
+  const m = missions.find(x => x.d === day);
+  if (!m || !available(day)) return;
+  active = m;
+  level = "facile";
+  answered = {};
+  missionPoints = 0;
+  document.getElementById("dayLabel").textContent = day + " dicembre · " + m.sub;
+  document.getElementById("missionTitle").textContent = m.title;
+  document.getElementById("missionStory").textContent = m.story;
+  document.getElementById("missionIntro").textContent = m.intro;
+  document.querySelectorAll(".levels button").forEach(b => b.classList.toggle("active", b.dataset.level === level));
+  document.getElementById("earnedClue").classList.add("hidden");
+  document.getElementById("missionScore").textContent = "Punti di questa missione: 0";
+  renderExercises();
+  document.getElementById("mission").showModal();
+}
+
+function setLevel(l) {
+  level = l;
+  document.querySelectorAll(".levels button").forEach(b => b.classList.toggle("active", b.dataset.level === l));
+  answered = {};
+  missionPoints = 0;
+  document.getElementById("earnedClue").classList.add("hidden");
+  document.getElementById("missionScore").textContent = "Punti di questa missione: 0";
+  renderExercises();
+}
+
+function renderExercises() {
+  const area = document.getElementById("exerciseArea");
+  area.innerHTML = "";
+  active.qs.forEach((item, i) => {
+    const q = item.levels[level];
+    const card = document.createElement("div");
+    card.className = "exercise";
+    card.innerHTML = `<h3>Prova ${i + 1} · ${level === "facile" ? "🌱" : level === "medio" ? "⭐" : "🔥"} ${level}</h3><div class="question">${q.q}</div><div class="choices"></div><details class="hint"><summary>💡 Chiedi un piccolo suggerimento</summary><p>${i === 0 ? "Rileggi la domanda e individua la parola o il dato che ti aiuta a escludere le alternative." : "Prova a spiegare a voce il procedimento prima di scegliere."}</p></details><div class="feedback" aria-live="polite"></div>`;
+    const choices = card.querySelector(".choices");
+    q.o.forEach((opt, j) => {
+      const btn = document.createElement("button");
+      btn.className = "choice";
+      btn.textContent = String.fromCharCode(65 + j) + ". " + opt;
+      btn.onclick = () => answer(i, j, q, card);
+      choices.appendChild(btn);
+    });
+    area.appendChild(card);
+  });
+}
+
+function answer(i, j, q, card) {
+  if (answered[i] !== undefined) return;
+  answered[i] = j;
+  const correct = j === q.a;
+  const points = level === "facile" ? 10 : level === "medio" ? 15 : 20;
+  if (correct) missionPoints += points;
+  card.querySelectorAll(".choice").forEach((b, k) => {
+    b.disabled = true;
+    if (k === q.a) b.classList.add("selected");
+  });
+  const fb = card.querySelector(".feedback");
+  fb.className = "feedback show " + (correct ? "good" : "bad");
+  fb.textContent = (correct ? "✨ Esatto! +" + points + " punti. " : "Non è la risposta corretta. ") + q.e;
+  document.getElementById("missionScore").textContent = "Punti di questa missione: " + missionPoints;
+  if (Object.keys(answered).length === active.qs.length) finishMission();
+}
+
+function finishMission() {
+  const already = !!state.done[active.d];
+  
+  // Calcolo dettaglio risposte per il report docente
+  let correctCount = 0;
+  const questionLogs = active.qs.map((item, idx) => {
+    const q = item.levels[level];
+    const chosenIdx = answered[idx];
+    const isOk = chosenIdx === q.a;
+    if (isOk) correctCount++;
+    return {
+      question: q.q,
+      chosenAnswer: q.o[chosenIdx],
+      correctAnswer: q.o[q.a],
+      isCorrect: isOk
+    };
+  });
+
+  if (!already) {
+    state.done[active.d] = true;
+    state.points += missionPoints;
+    if (!state.clues.includes(active.clue)) state.clues.push(active.clue);
+    state.details[active.d] = {
+      day: active.d,
+      subject: active.sub,
+      title: active.title,
+      levelChosen: level,
+      pointsEarned: missionPoints,
+      correctAnswers: `${correctCount}/${active.qs.length}`,
+      completedAt: new Date().toISOString(),
+      responses: questionLogs
+    };
+    save();
+  }
+
+  const box = document.getElementById("earnedClue");
+  box.classList.remove("hidden");
+  box.innerHTML = `<strong>🎁 Indizio conquistato: ${active.clue}</strong><br>${already ? "Missione già completata: puoi ripassare le risposte." : "Avete completato la missione! Conservate questo indizio per il mistero finale."}`;
+}
+
+function closeMission() {
+  document.getElementById("mission").close();
+  render();
+}
+
+function checkFinal() {
+  const rawInput = document.getElementById("finalAnswer").value.trim();
+  const v = rawInput.toLowerCase().replace(/[.,!?']/g, "").replace(/\s+/g, " ");
+  const fb = document.getElementById("finalFeedback");
+  
+  state.finalSubmittedText = rawInput;
+
+  if (v.includes("magia") && (v.includes("condivision") || v.includes("condividere"))) {
+    fb.textContent = "🎉 Avete risolto il mistero! La magia del Natale non era scomparsa: vive nella luce, nel sapere, nella gentilezza e nella condivisione. Il Grande Libro è completo. Buon Natale!";
+    fb.style.color = "#17633d";
+    state.finalSolved = true;
+  } else {
+    fb.textContent = "Non è ancora la soluzione: osservate gli indizi e pensate a ciò che tiene unite le persone durante il Natale.";
+    fb.style.color = "#9a4a27";
+  }
+  save();
+}
+
+// Costruzione del payload JSON strutturato per l'insegnante
+function buildTeacherReport() {
+  let student = (state.studentName || "").trim();
+  if (!student) {
+    const prompted = prompt("Inserisci il tuo Nome e Cognome (o nome della squadra) prima di esportare:");
+    if (prompted && prompted.trim()) {
+      student = prompted.trim();
+      state.studentName = student;
+      document.getElementById("studentName").value = student;
+      save();
+    } else {
+      student = "Studente_Anonimo";
+    }
+  }
+
+  const completedCount = Object.keys(state.done).length;
+  const totalMissions = missions.length;
+
+  return {
+    appTitle: "Il mistero del Natale perduto - Calendario dell'Avvento 2026",
+    exportedAt: new Date().toISOString(),
+    student: student,
+    summary: {
+      totalPoints: state.points,
+      completedMissions: `${completedCount}/${totalMissions}`,
+      completionPercentage: Math.round((completedCount / totalMissions) * 100) + "%",
+      cluesCollected: state.clues,
+      finalMysterySolved: state.finalSolved,
+      finalAnswerGiven: state.finalSubmittedText || null
+    },
+    missionsLog: Object.values(state.details).sort((a, b) => a.day - b.day)
+  };
+}
+
+function getExportFilename(studentName) {
+  const dateSlug = new Date().toISOString().split("T")[0];
+  const safeName = studentName.toLowerCase().replace(/[^a-z0-9àèéìòù]+/g, "_").replace(/^_|_$/g, "") || "studente";
+  return `avvento2026_${safeName}_${dateSlug}.json`;
+}
+
+// Download diretto del file JSON
+function exportProgressJSON() {
+  const report = buildTeacherReport();
+  const jsonStr = JSON.stringify(report, null, 2);
+  const blob = new Blob([jsonStr], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = getExportFilename(report.student);
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// Condivisione tramite Web Share API (utile su mobile/tablet per inviare su Classroom/WhatsApp/Email)
+async function shareProgressJSON() {
+  const report = buildTeacherReport();
+  const jsonStr = JSON.stringify(report, null, 2);
+  const fileName = getExportFilename(report.student);
+  const file = new File([jsonStr], fileName, { type: "application/json" });
+
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({
+        title: `Progressi Avvento 2026 - ${report.student}`,
+        text: `Ecco i miei progressi del Calendario dell'Avvento (${report.summary.completedMissions} missioni, ${report.summary.totalPoints} punti).`,
+        files: [file]
+      });
+    } catch (err) {
+      if (err.name !== "AbortError") exportProgressJSON();
+    }
+  } else {
+    exportProgressJSON();
+  }
+}
+
+// Reset dei progressi locali
+function resetProgress() {
+  if (confirm("Sei sicuro di voler cancellare tutti i progressi salvati su questo dispositivo?")) {
+    localStorage.removeItem(STORAGE);
+    localStorage.removeItem("avvento_natale_2026_v1");
+    state = structuredClone(defaultState);
+    document.getElementById("studentName").value = "";
+    document.getElementById("finalFeedback").textContent = "";
+    render();
+  }
+}
+
+render();
+</script>
+</body>
+</html>
