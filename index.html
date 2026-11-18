@@ -1,118 +1,56 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Il mistero del Natale perduto – Calendario dell'Avvento 2026</title>
-<style>
-:root{--pine:#174b3b;--pine2:#23634d;--red:#b8323c;--gold:#f4c96b;--cream:#fff8e9;--ink:#24332d;--muted:#64736b;--snow:#f4f8f7}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:linear-gradient(160deg,#e8f3ef,#fff8e9 55%,#f8e9e6);min-height:100vh}
-header{background:linear-gradient(135deg,#123d32,#23634d);color:#fff;text-align:center;padding:34px 18px 28px;position:relative;overflow:hidden}
-header:before{content:"❄ ✦ ❄ ✧ ❄ ✦ ❄";position:absolute;inset:8px 0 auto;color:#ffffff42;font-size:25px;letter-spacing:18px}
-header h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.5rem);margin:12px 0 8px;color:#ffe8ac;text-shadow:0 3px 0 #7e342e}
-header p{max-width:760px;margin:0 auto;line-height:1.55;color:#f7f4e9}
-.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 56px}
-.intro{display:grid;grid-template-columns:1.3fr .9fr;gap:16px;margin-top:-8px}
-.panel{background:#ffffffdc;border:1px solid #d9e6de;border-radius:20px;padding:20px;box-shadow:0 8px 24px #1a493010}
-.panel h2,.panel h3{font-family:Georgia,serif;color:var(--pine);margin:0 0 10px}
-.story{line-height:1.6}.progress{height:12px;border-radius:20px;background:#e5eee8;overflow:hidden;margin:12px 0 6px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#d8a63d,#23634d);transition:width .3s}
-.stats{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}
-.student-box{display:flex;gap:8px;margin-bottom:14px}
-.student-box input{flex:1;padding:8px 11px;border:1px solid #cbdcd1;border-radius:10px;font:inherit;font-size:.9rem;background:#fbfdfb}
-.student-box input:focus{outline:2px solid var(--pine2);border-color:transparent}
-.export-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px dashed #d5e1d8}
-.btn-sm{padding:8px 12px;font-size:.85rem;border-radius:9px;cursor:pointer;font-weight:600;display:inline-flex;align-items:center;gap:5px}
-.btn-export{background:var(--pine);color:#fff;border:0}.btn-export:hover{background:var(--pine2)}
-.btn-share{background:#fff4d8;color:#7a5310;border:1px solid #e2be6b}
-.btn-reset{background:transparent;color:#9a4a27;border:1px solid #e4c6b8;margin-left:auto}
-.btn-unlock{background:#fff4d8;color:#7a5310;border:1px solid #e2be6b}.btn-unlock.active{background:#d54b55;color:#fff;border-color:#b8323c}
-.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:22px 0}
-.door{border:0;border-radius:16px;min-height:126px;padding:12px 8px;background:linear-gradient(145deg,#c64249,#9f2937);color:white;box-shadow:0 5px 0 #78232c,0 9px 18px #173c3020;cursor:pointer;position:relative;transition:transform .15s,filter .15s}
-.door:hover{transform:translateY(-3px)}.door:disabled{cursor:not-allowed;filter:grayscale(.55);opacity:.64;transform:none}
-.door .date{font-size:1.65rem;font-weight:800;display:block;color:#ffe9ae}.door .month{font-size:.72rem;letter-spacing:1px;text-transform:uppercase}.door .subject{display:block;font-size:.75rem;margin-top:8px;line-height:1.2}.door .lock{font-size:1.15rem;display:block;margin-top:5px}
-.door.done{background:linear-gradient(145deg,#287653,#174b3b);box-shadow:0 5px 0 #103d2e,0 9px 18px #173c3020}.door.today{outline:3px solid var(--gold);outline-offset:3px}
-.door .tick{position:absolute;right:9px;top:7px;font-size:1rem}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.84rem;color:var(--muted);margin:4px 0 20px}.legend span{display:flex;align-items:center;gap:6px}
-.dot{width:12px;height:12px;border-radius:4px;display:inline-block;background:var(--red)}.dot.green{background:var(--pine2)}.dot.gray{background:#aebbb4}
-.notice{background:#fff1d1;border-left:4px solid #d5a23f;padding:12px 14px;border-radius:10px;font-size:.9rem;line-height:1.5}
-footer{text-align:center;color:var(--muted);font-size:.82rem;padding:10px}
-button,select{font:inherit}.primary{background:var(--pine);color:#fff;border:0;padding:11px 17px;border-radius:11px;cursor:pointer;font-weight:700}.secondary{background:#edf4ef;color:var(--pine);border:1px solid #cbdcd1;padding:10px 14px;border-radius:11px;cursor:pointer}
-dialog{border:0;border-radius:22px;padding:0;width:min(720px,calc(100% - 24px));max-height:90vh;box-shadow:0 25px 80px #102d2480;color:var(--ink)}
-dialog::backdrop{background:#102c25b8;backdrop-filter:blur(4px)}.modal-head{background:linear-gradient(135deg,#174b3b,#23634d);color:#fff;padding:20px 24px}.modal-head h2{font-family:Georgia,serif;color:#ffe8ac;margin:0 0 5px}.modal-body{padding:22px 24px;overflow:auto;max-height:65vh}.modal-foot{padding:14px 24px;background:#f5f8f5;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
-.levels{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px}.levels button{border:1px solid #cbdcd1;background:#f5faf6;border-radius:20px;padding:8px 13px;cursor:pointer;color:var(--pine)}.levels button.active{background:var(--pine);color:#fff;border-color:var(--pine)}
-.exercise{border:1px solid #dce8df;border-radius:15px;padding:16px;margin:14px 0;background:#fff}.exercise h3{font-size:1rem;color:var(--pine);margin:0 0 8px}.question{line-height:1.5;margin:8px 0 12px}.choices{display:grid;gap:8px}.choice{display:block;text-align:left;width:100%;padding:10px 12px;border:1px solid #d5e1d8;border-radius:10px;background:#fbfdfb;cursor:pointer}.choice:hover{border-color:#6d9b80;background:#f1f8f3}.choice.selected{border-color:var(--pine);background:#e9f3ec}.choice:disabled{cursor:default}
-.feedback{margin-top:10px;padding:10px 12px;border-radius:10px;font-size:.9rem;line-height:1.45;display:none}.feedback.show{display:block}.feedback.good{background:#e5f4e8;color:#185c36}.feedback.bad{background:#fff0e7;color:#8b3b23}
-.hint{margin-top:9px}.hint summary{cursor:pointer;color:#8a6423;font-size:.88rem}.hint p{font-size:.88rem;color:var(--muted)}
-.clue{background:#fff4d8;border:1px dashed #d5a23f;padding:14px;border-radius:13px;margin-top:16px}.clue strong{color:#835b14}.hidden{display:none!important}
-.unlock-status{font-size:.8rem;color:#8a6423;margin:8px 0 0}
-@media(max-width:800px){.grid{grid-template-columns:repeat(3,1fr)}.intro{grid-template-columns:1fr}}
-@media(max-width:480px){.grid{grid-template-columns:repeat(3,1fr);gap:9px}.door{min-height:112px}.door .subject{font-size:.68rem}.modal-body{padding:16px}.modal-head{padding:17px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendario dell'Avvento</title>
 </head>
 <body>
-<header>
-  <div aria-hidden="true">⭐ 🎄 ❄️ 🎁 ❄️ 🎄 ⭐</div>
-  <h1>Il mistero del Natale perduto</h1>
-  <p>Un'avventura di 15 tappe per la classe terza media. Apri una casella al giorno, supera le prove e raccogli gli indizi per ritrovare la magia del Natale!</p>
-</header>
-<main class="wrap">
-  <section class="intro">
-    <div class="panel story">
-      <h2>📖 Il messaggio dal Polo Nord</h2>
-      <p>È successo qualcosa di incredibile: il Grande Libro del Natale ha perso le sue pagine e la stella che illumina il Polo Nord si sta spegnendo. Gli elfi hanno bisogno di una squadra di investigatori: voi!</p>
-      <p>Ogni giorno vi aspetta una missione. Le risposte corrette vi faranno guadagnare punti e un indizio. Conservate gli indizi: il 23 dicembre vi aiuteranno a risolvere il mistero.</p>
-      <div class="notice"><strong>Regola dell'avventura:</strong> scegliete il vostro livello (facile, intermedio o avanzato), leggete con attenzione e confrontatevi. Le caselle si aprono a partire dalla data indicata, secondo il calendario del dispositivo.</div>
-    </div>
-    <div class="panel">
-      <h3>🏆 Diario dello studente</h3>
-      <div class="student-box"><input id="studentName" type="text" placeholder="Nome e Cognome (o Squadra)..." aria-label="Nome dello studente o della squadra"></div>
-      <div class="stats"><span>⭐ Punti: <strong id="points">0</strong></span><span>🔓 Missioni: <strong id="completed">0/15</strong></span></div>
-      <div class="progress"><span id="bar"></span></div>
-      <p id="progressText" class="stats">La vostra avventura sta per cominciare!</p>
-      <h3 style="margin-top:16px">🧩 Indizi raccolti</h3>
-      <div id="clueCount" class="stats">Nessun indizio ancora.</div>
-      <div class="export-actions">
-        <button class="btn-sm btn-export" onclick="exportProgressJSON()" title="Scarica il file JSON da inviare all'insegnante">📥 Esporta JSON per docente</button>
-        <button id="btnShare" class="btn-sm btn-share hidden" onclick="shareProgressJSON()" title="Condividi direttamente il file">📤 Condividi</button>
-        <button id="btnUnlock" class="btn-sm btn-unlock" onclick="toggleTemporaryUnlock()" title="Sblocca temporaneamente tutte le date">🔓 Sblocca tutte le date</button>
-        <button class="btn-sm btn-reset" onclick="resetProgress()" title="Azzera tutti i dati salvati">🗑️ Reset</button>
-      </div>
-      <p id="unlockStatus" class="unlock-status hidden">Le date sono temporaneamente sbloccate.</p>
-      <p id="saveStatus" style="font-size:.78rem;color:#64736b;margin:8px 0 0">I progressi vengono salvati automaticamente in questo browser.</p>
-    </div>
-  </section>
-  <h2 style="font-family:Georgia,serif;color:#174b3b;margin:28px 0 8px">Le caselle dell'Avvento</h2>
-  <div class="legend"><span><i class="dot"></i> Da aprire</span><span><i class="dot green"></i> Completata</span><span><i class="dot gray"></i> Non ancora disponibile</span></div>
-  <section id="calendar" class="grid" aria-label="Calendario dell'Avvento"></section>
-  <section class="panel">
-    <h3>🔐 Il mistero finale</h3>
-    <p class="story">Quando avrete raccolto gli indizi delle missioni, provate a comporre la frase segreta. Il 23 dicembre potrete inserire la soluzione e scoprire il finale della storia.</p>
-    <div id="finalArea" class="hidden">
-      <label for="finalAnswer"><strong>Qual è la frase segreta?</strong></label>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px"><input id="finalAnswer" type="text" placeholder="Scrivi qui la soluzione..." style="flex:1;min-width:190px;padding:11px;border:1px solid #cbdcd1;border-radius:10px"><button class="primary" onclick="checkFinal()">Verifica</button></div>
-      <p id="finalFeedback" aria-live="polite"></p>
-    </div>
-    <p id="finalLocked" class="notice">La sfida conclusiva si sbloccherà dopo aver completato la missione del 23 dicembre.</p>
-  </section>
-</main>
-<footer>Creato per imparare insieme, con curiosità e spirito di squadra. Buon Avvento! 🎄</footer>
-<dialog id="mission">
-  <div class="modal-head"><div id="dayLabel" style="font-size:.8rem;letter-spacing:1px;text-transform:uppercase"></div><h2 id="missionTitle"></h2><div id="missionStory"></div></div>
-  <div class="modal-body">
-    <p id="missionIntro"></p>
-    <strong>Scegli il tuo livello:</strong>
-    <div class="levels">
-      <button data-level="facile" class="active" onclick="setLevel('facile')">🌱 Facile</button>
-      <button data-level="medio" onclick="setLevel('medio')">⭐ Intermedio</button>
-      <button data-level="avanzato" onclick="setLevel('avanzato')">🔥 Avanzato</button>
-    </div>
-    <div id="exerciseArea"></div>
-    <div id="earnedClue" class="clue hidden"></div>
-  </div>
-  <div class="modal-foot"><span id="missionScore">Punti di questa missione: 0</span><button class="primary" onclick="closeMission()">Torna al calendario</button></div>
-</dialog>
-<script>
-const missions = [];
-</script>
+  <p style="font-family:system-ui,sans-serif;text-align:center;padding:2rem">Caricamento del calendario e delle missioni…</p>
+  <script>
+    (async function restoreCalendar() {
+      const previousVersion = "https://raw.githubusercontent.com/danielac240/calendario-avvento/af75360378ce86eb09b1efddb427fd07fb69dc3c/index.html";
+      try {
+        const response = await fetch(previousVersion);
+        if (!response.ok) throw new Error("Impossibile recuperare la versione completa del calendario.");
+        let html = await response.text();
+
+        html = html.replace("</style>", `
+.btn-unlock{background:#fff4d8;color:#7a5310;border:1px solid #e2be6b}
+.btn-unlock.active{background:#d54b55;color:#fff;border-color:#b8323c}
+.unlock-status{font-size:.8rem;color:#8a6423;margin:8px 0 0}
+</style>`);
+
+        html = html.replace(
+          '<button class="btn-sm btn-reset"',
+          '<button id="btnUnlock" class="btn-sm btn-unlock" onclick="toggleTemporaryUnlock()" title="Sblocca temporaneamente tutte le date">🔓 Sblocca tutte le date</button>\n        <button class="btn-sm btn-reset"'
+        );
+        html = html.replace(
+          '<p id="saveStatus"',
+          '<p id="unlockStatus" class="unlock-status hidden">Le date sono temporaneamente sbloccate.</p>\n      <p id="saveStatus"'
+        );
+        html = html.replace(
+          'function available(day) { return today >= dateFor(day); }',
+          `let temporaryUnlock = false;
+function available(day) { return temporaryUnlock || today >= dateFor(day); }
+function toggleTemporaryUnlock() {
+  temporaryUnlock = !temporaryUnlock;
+  const button = document.getElementById("btnUnlock");
+  button.classList.toggle("active", temporaryUnlock);
+  button.textContent = temporaryUnlock ? "🔒 Blocca le date" : "🔓 Sblocca tutte le date";
+  document.getElementById("unlockStatus").classList.toggle("hidden", !temporaryUnlock);
+  render();
+}`
+        );
+
+        document.open();
+        document.write(html);
+        document.close();
+      } catch (error) {
+        document.body.innerHTML = "<p style=\"font-family:system-ui,sans-serif;text-align:center;padding:2rem;color:#9a4a27\">Non è stato possibile caricare il calendario. Riprova aggiornando la pagina.</p>";
+        console.error(error);
+      }
+    })();
+  </script>
 </body>
 </html>
